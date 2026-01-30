@@ -7,7 +7,7 @@
     <div class="navbar-menu">
       <nav class="navbar">
         <div class="navbar-left">
-          <img class="logo" src="./assets/images/popcorn.png" alt="project-logo">
+          <img class="logo" src="./assets/images/video-player.png" alt="project-logo">
           <ul>
             <li>
               <a href="">Movies</a>
@@ -42,13 +42,6 @@
         <movieCard />
         <movieCard />
         <movieCard />
-        <movieCard />
-        <movieCard />
-        <movieCard />
-        <movieCard />
-        <movieCard />
-        <movieCard />
-        <movieCard />
     </div>
   </main>
 </template>
@@ -76,7 +69,7 @@ nav {
   justify-content: space-between;
   padding: 0 24px;
   height: 60px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -101,6 +94,12 @@ nav {
   align-items: center;
   height: 60px;
 }
+
+.navbar-left a, .nabvar-right a {
+  text-decoration: none;
+  color: gray;
+}
+
 /*
 .wrapper {
   display: flex;
